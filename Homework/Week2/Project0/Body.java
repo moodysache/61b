@@ -29,12 +29,50 @@ class Body{
       return (G*this.mass*b.mass)/Math.pow(distance,2);
   }
 
-    public double calcForceExertedByX(Body b){
+    public double calcForceExertedByX(Body b){  //Fx=(F⋅dx)r
        return calcForceExertedBy(b)*(b.xxPos-this.xxPos)/calcDistance(b);
 
     }
-     public double calcForceExertedByY(Body b){
+     public double calcForceExertedByY(Body b){  //Fy=(F⋅dy)/r
       return calcForceExertedBy(b)*(b.yyPos-this.yyPos)/calcDistance(b);
     }
+    public double calcNetForceExertedByX(Body[] allBodys){
+      double totalForce=0;
+      for(Body j:allBodys){
+        if(!this.equals(j))
+          totalForce+=calcForceExertedByX(j);       
+      }
+      return totalForce;
+    }
+     public double calcNetForceExertedByY(Body[] allBodys){
+      double totalForce=0;
+      for(Body j:allBodys){
+        if(!this.equals(j))
+          totalForce+=calcForceExertedByY(j);       
+      }
+      return totalForce;
+    }
+    
+    public void update(double dt,double fX,double fY){
+         double aX = fX / this.mass;
+         double aY = fY / this.mass;
+
+        //calculate / update the new velocity
+        this.xxVel = this.xxVel + dt * aX;
+        this.yyVel = this.yyVel + dt * aY;
+
+        //calculate / update new position
+        this.xxPos = this.xxPos + dt * this.xxVel;
+        this.yyPos = this.yyPos + dt * this.yyVel;
+    }
+   
+       public void draw() {
+        /* Stamps three copies of advice.png in a triangular pattern. */
+        //StdDraw.picture(0, 75, imageToDraw);
+       //StdDraw.picture(-75, -75, imageToDraw);
+      //StdDraw.picture(75, -75, imageToDraw);
+        StdDraw.picture(this.xxPos,this.yyPos,"images/"+this.imgFileName);
+   
+  }
 
 }
