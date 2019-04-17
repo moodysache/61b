@@ -1,6 +1,5 @@
 package Week1;
 
-import java.util.Scanner;
 
 /** Class that determines whether or not a year is a leap year.
  *  @author YOUR NAME HERE
@@ -20,10 +19,19 @@ public class LeapYear {
 
     /** Must be provided an integer as a command line argument ARGS. */
     public static void main(String[] args) {
-                Scanner reader=new Scanner(System.in);
-
-                checkLeapYear(Integer.parseInt(reader.nextLine()));
+        if (args.length < 1) {
+            System.out.println("Please enter command line arguments.");
+            System.out.println("e.g. java Year 2000");
+        }
+        for (int i = 0; i < args.length; i++) {
+            try {
+                int year = Integer.parseInt(args[i]);
+                checkLeapYear(year);
+            } catch (NumberFormatException e) {
+                System.out.printf("%s is not a valid number.\n", args[i]);
             }
+        }
+    }
 
 
     public static boolean isLeapYear(int year){
@@ -31,4 +39,3 @@ public class LeapYear {
 
     }
 }
-
