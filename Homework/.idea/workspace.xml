@@ -2,111 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd36f0ef-ebba-4af9-b657-9579817d371d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/Body.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/In.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/StdAudio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/StdDraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/StdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestBodyConstructor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestBodyConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestCalcDistance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestCalcDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestCalcForceExertedBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestCalcForceExertedByXY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestCalcNetForceExertedByXY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestReadBodies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestReadRadius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/TestUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/audio/2001.mid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/3body.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/8star-rotation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/antimatter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/armageddon.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/atom.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/awesome.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/binary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/binaryStars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/bowling.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/chaosblossom.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/dance10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/entropy-universe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/fourellipses.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/galaxy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/hypnosis.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/illusion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/its-a-trap.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/kaleidoscope.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/kevin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/massive-squirrel-battle.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/planets-elliptical.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/planets.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/planetsparty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/pluto.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/quad-stars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/renegade.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/sbh2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/sbh3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/soap-opera.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/spiral.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/suninterference.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/twin-binaries.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/uniform100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/uniform3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/data/uniform8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/BasicInDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/BasicInDemo_input_file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/In.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/InDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/StdDraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/StdDrawDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/StdOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/StdRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/advice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/examples/national_salt_production.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/acorn-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/acorn3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/asteroid.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/ball.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/blackhole.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/death_star.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/earth.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/electron.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/endor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/goodbye.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/imback.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/its_a_trap.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/jupiter.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/kevin.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/mars.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/mercury.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/neptune.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/ninjasquirrel_red.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/nucleus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/pin.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/pluto.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/rebel_cruiser.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/saturn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/squirrel.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/star.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/star_destroyer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/starfield.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/sun.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/uranus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/images/venus.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week2/Project0/proj0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homeworks/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homeworks/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homeworks/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homeworks/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homeworks/Homeworks.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homeworks/out/production/Homeworks/Week1/LeapYear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Homeworks/src/Week1/LeapYear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lectureCode-sp19-master/ListExercises/lists1/IntList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lectureCode-sp19-master/ListExercises/lists1/IntList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lectureCode-sp19-master/ListExercises/lists1/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lectureCode-sp19-master/ListExercises/lists1/IntList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,19 +16,35 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week1/Fibonacci.class">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week2/Project0/TestCalcForceExertedByXY.class">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#562#0" expanded="true" />
+                <element signature="e#0#1848#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week2/Project0/TestCalcForceExertedBy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#1408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week1/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -142,24 +55,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week1/LeapYear.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1072#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week2/Project0/Body.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#835#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -178,15 +79,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week2/Project0/TestBodyConstructor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#2304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -215,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -234,16 +128,11 @@
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="Week2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Week2" type="462c0819:PsiDirectoryNode" />
-              <item name="Project0" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,17 +189,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -318,33 +204,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week1/Fibonacci.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week1/LeapYear.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -376,11 +250,33 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week2/Project0/TestBodyConstructor.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/Project0/TestCalcForceExertedByXY.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#2304#0" expanded="true" />
+            <element signature="e#0#1848#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2/Project0/TestCalcForceExertedBy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1/Fibonacci.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
