@@ -81,17 +81,51 @@ public class IntList {
      */
 
     public static IntList dcatenate(IntList A, IntList B) {
-        //TODO:  fill in method
-        return null;
+        int count =B.RecursiveSize();
+        IntList Q=A;
+        for(int i=0;i<count-1;i++){
+            A=A.rest;
+        }
+        A.rest=B;
+
+        return Q;
     }
+
+    public  int RecursiveSize(){
+            if(rest==null){
+                return 1;
+            } else return 1+ rest.RecursiveSize();
+        }
 
     /**
      * Returns a list consisting of the elements of A followed by the
      * * elements of B.  May NOT modify items of A.  Use 'new'.
      */
     public static IntList catenate(IntList A, IntList B) {
-        //TODO:  fill in method
-        return null;
+            IntList Q=clone(B);
+            IntList J=clone(A);
+            IntList R=J;
+            int count=J.RecursiveSize();
+            for(int i=0;i<count-1;i++){
+                   J=J.rest;
+            }
+                J.rest=B;
+            return R;
+    }
+    public static IntList clone(IntList x){
+        int count=x.RecursiveSize();
+        IntList Q=null;
+        IntList J=x;
+        while(count!=0){
+            for(int i=0;i < count-1; i++){
+                J=J.rest;
+            }
+            count--;
+            Q=new IntList(J.first,Q);
+            J=x;
+        }
+
+        return Q;
     }
 
 
