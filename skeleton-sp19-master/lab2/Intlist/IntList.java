@@ -102,15 +102,35 @@ public class IntList {
      * * elements of B.  May NOT modify items of A.  Use 'new'.
      */
     public static IntList catenate(IntList A, IntList B) {
-            IntList Q=clone(B);
-            IntList J=clone(A);
-            IntList R=J;
-            int count=J.RecursiveSize();
-            for(int i=0;i<count-1;i++){
-                   J=J.rest;
-            }
-                J.rest=B;
-            return R;
+        //The goal is create a new IntList from every item from A (the A.first value)
+        //Remember the IntList declaration
+        // IntList L = new IntList(5, null);
+        // L.rest = new IntList(10, null);
+        // L.rest.rest = new IntList(15, null);
+        //When we reach L.rest.rest, we set L.rest.rest.rest to B to connect two lists A and B
+        // we follow the same principle
+
+        IntList p = A; //p point to IntList A
+        //create new IntList with first item of A which is p.first, now we need to create new IntList for result.rest ...
+        IntList result = new IntList(p.first, null);
+
+        IntList p2 = result; //set this so we can point to result.rest without losing pointer to the
+        //original result IntList
+        p = p.rest; //point p to p.rest so p.first will become p.rest.first which is next item in A
+
+        //Declaration of the IntList rest of result
+        while (p != null) { //when p is null meaning reaching last item of A
+            p2.rest = new IntList(p.first, null); //this is L.rest, L.rest.rest, L.rest.rest.rest ..
+            p = p.rest; //move p to the next item of A IntList, so the next p.first will
+            //actually be p.rest.first which is the second item in A
+            p2 = p2.rest; //change this so new IntList created are the rest list of result;
+            //the last p2 is a IntList that contains last item of A and a null IntList
+        }
+        //when we are out of the loop
+        //we are at the last item of A
+        //the rest list of the last IntList in A is null and p2.rest point to it so
+        p2.rest = B; //we at the last item of A, so we set the rest list to B to connect two lists
+        return result;
     }
     public static IntList clone(IntList x){
         int count=x.RecursiveSize();
@@ -127,21 +147,6 @@ public class IntList {
 
         return Q;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /**
      * DO NOT MODIFY ANYTHING BELOW THIS LINE! Many of the concepts below here
