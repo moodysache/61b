@@ -1,3 +1,5 @@
+
+
 /** Performs some basic linked list tests. */
 public class LinkedListDequeTest {
 	
@@ -86,12 +88,16 @@ public class LinkedListDequeTest {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Running tests.\n");
-		addIsEmptySizeTest();
-		addRemoveTest();
-		//LinkedListDeque<Integer> lld1 = new LinkedListDeque<Integer>();
-		//lld1.addFirst(10);
-		//lld1.addFirst(100);
+		//System.out.println("Running tests.\n");
+		//addIsEmptySizeTest();
+		//addRemoveTest();
+		LinkedListDeque<Integer> lld1 = new LinkedListDeque<Integer>();
+		lld1.addFirst(10);
+		lld1.addLast(100);
+		lld1.addLast(1000);
+		//System.out.println(lld1.removeLast());
+		LinkedListDeque j=new LinkedListDeque(lld1);
+		j.printDeque();
 
 
 
