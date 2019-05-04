@@ -15,6 +15,7 @@ public class AList<T> {
      */
     public AList() {
         items = (T[])new Object[4];
+
         size = 0;
     }
 
@@ -23,9 +24,7 @@ public class AList<T> {
      */
     public void addLast(T x) {
         if(size==items.length){
-            T [] a=(T[])new Object[size+1];
-            System.arraycopy(items, 0,a ,0 ,size );
-            items=a;
+           arrayResize();
         }
             items[size]=x;
             size++;
@@ -65,17 +64,41 @@ public class AList<T> {
         return returnItem;
     }
 
+    public void insert (T item,int position){
+        if(size==items.length){
+           arrayResize();
+            }
+        for(int j=items.length-1;j!=position;j--){
+            items[j]=items[j-1];
+        }
+        items[position]=item;
+        size++;
+
+    }
+
+    public void insert(int[] arr, T item, int position){
+
+    }
+
+
+
+
+    public void arrayResize(){
+        T [] a=(T[])new Object[size*2];
+        System.arraycopy(items, 0,a ,0 ,size );
+        items=a;
+    }
     public static void main(String[] args) {
         AList <Integer> list = new AList();
         list.addLast(10);
         list.addLast(20);
-        list.addLast(39);
-        list.addLast(2);
-        list.addLast(333);
-        list.addLast(34);
-        list.addLast(2);
-        list.addLast(333);
-        list.addLast(34);
+        list.addLast(100);
+        list.addLast(10);
+        list.addLast(20);
+        list.addLast(100);
+        list.insert(200, 1);
+
+
 
     }
-} 
+}

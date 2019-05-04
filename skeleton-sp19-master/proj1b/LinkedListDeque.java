@@ -1,6 +1,6 @@
 
 
-public class LinkedListDeque<T> {
+public class LinkedListDeque<T> implements Deque<T> {
     private LinkedList sentinel;
 
     public int size = 0;
@@ -27,6 +27,7 @@ public class LinkedListDeque<T> {
         }
     }
 
+    @Override
     public void addFirst(T item) {
         LinkedList j = new LinkedList(item, null, sentinel);
         if (!isEmpty()) {
@@ -42,6 +43,7 @@ public class LinkedListDeque<T> {
 
     }
 
+    @Override
     public void addLast(T item) {
         LinkedList j = new LinkedList(item, sentinel, null);
         if (!isEmpty()) {
@@ -55,6 +57,7 @@ public class LinkedListDeque<T> {
         size++;
     }
 
+    @Override
     public void printDeque() {
         LinkedList j = sentinel.next;
         while (j != sentinel) {
@@ -64,10 +67,14 @@ public class LinkedListDeque<T> {
         System.out.println();
     }
 
+    @Override
     public T removeFirst() {
         if (!isEmpty()) {
             size--;
             LinkedList x = sentinel.next;
+            if(isEmpty()){
+                return x.item;
+            }
             if (sentinel.next.next != sentinel) {
                 sentinel.next = sentinel.next.next;
                 sentinel.next.prev = sentinel;
@@ -79,8 +86,11 @@ public class LinkedListDeque<T> {
         return null;
     }
 
+
+    @Override
     public T removeLast() {
         if (!isEmpty()) {
+
             size--;
             LinkedList x = sentinel.prev;
             sentinel.prev = x.prev;
@@ -90,6 +100,7 @@ public class LinkedListDeque<T> {
         return null;
     }
 
+    @Override
     public T get(int index) {
         if (size - 1 >= index) {
             LinkedList j = sentinel.next;
@@ -104,12 +115,7 @@ public class LinkedListDeque<T> {
     /* Not ready yet*/
     public T getRecursive(int index){
 
-          return null;
-    }
-
-
-    public boolean isEmpty() {
-        return size == 0;
+        return null;
     }
 
     public int size() {
