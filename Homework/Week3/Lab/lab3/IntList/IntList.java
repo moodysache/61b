@@ -5,17 +5,17 @@ import java.util.Formatter;
  * with a large number of additional methods.
  *
  * @author P. N. Hilfinger, with some modifications by Josh Hug and melaniecebula
- *         [Do not modify this file.]
+ * [Do not modify this file.]
  */
 public class IntList {
     /**
      * First element of list.
      */
-    public int first;
+    private int first;
     /**
      * Remaining elements of list.
      */
-    public IntList rest;
+    private IntList rest;
 
     /**
      * A List with first FIRST0 and rest REST0.
@@ -29,7 +29,7 @@ public class IntList {
      * A List with null rest, and first = 0.
      */
     public IntList() {
-    /* NOTE: public IntList () { }  would also work. */
+        /* NOTE: public IntList () { }  would also work. */
         this(0, null);
     }
 
@@ -81,21 +81,23 @@ public class IntList {
      */
 
     public static IntList dcatenate(IntList A, IntList B) {
-        int count =B.RecursiveSize();
-        IntList Q=A;
-        for(int i=0;i<count-1;i++){
-            A=A.rest;
+        int count = B.recursiveSize();
+        IntList Q = A;
+        for (int i = 0; i < count - 1; i++) {
+            A = A.rest;
         }
-        A.rest=B;
+        A.rest = B;
 
         return Q;
     }
 
-    public  int RecursiveSize(){
-            if(rest==null){
-                return 1;
-            } else return 1+ rest.RecursiveSize();
+    public int recursiveSize() {
+        if (rest == null) {
+            return 1;
+        } else {
+            return 1 + rest.recursiveSize();
         }
+    }
 
     /**
      * Returns a list consisting of the elements of A followed by the
@@ -109,9 +111,9 @@ public class IntList {
         // L.rest.rest = new IntList(15, null);
         //When we reach L.rest.rest, we set L.rest.rest.rest to B to connect two lists A and B
         // we follow the same principle
-
         IntList p = A; //p point to IntList A
-        //create new IntList with first item of A which is p.first, now we need to create new IntList for result.rest ...
+        //create new IntList with first item of A which is p.first, now we need to create new
+        // IntList for result.rest ...
         IntList result = new IntList(p.first, null);
 
         IntList p2 = result; //set this so we can point to result.rest without losing pointer to the
@@ -132,17 +134,18 @@ public class IntList {
         p2.rest = B; //we at the last item of A, so we set the rest list to B to connect two lists
         return result;
     }
-    public static IntList clone(IntList x){
-        int count=x.RecursiveSize();
-        IntList Q=null;
-        IntList J=x;
-        while(count!=0){
-            for(int i=0;i < count-1; i++){
-                J=J.rest;
+
+    public static IntList clone(IntList x) {
+        int count = x.recursiveSize();
+        IntList Q = null;
+        IntList J = x;
+        while (count != 0) {
+            for (int i = 0; i < count - 1; i++) {
+                J = J.rest;
             }
             count--;
-            Q=new IntList(J.first,Q);
-            J=x;
+            Q = new IntList(J.first, Q);
+            J = x;
         }
 
         return Q;
@@ -268,6 +271,19 @@ public class IntList {
         }
         out.format(")");
         return out.toString();
+    }
+
+    public static IntList reverse(IntList A) {
+        IntList Q = A;
+        IntList x = null;
+
+        while (Q != null) {
+            x = new IntList(Q.first, x);
+            Q = Q.rest;
+
+        }
+
+        return x;
     }
 }
 
