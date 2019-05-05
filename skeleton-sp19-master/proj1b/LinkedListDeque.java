@@ -80,9 +80,7 @@ public class LinkedListDeque<T> implements Deque<T> {
                 sentinel.next.prev = sentinel;
                 return x.item;
             }
-
         }
-
         return null;
     }
 

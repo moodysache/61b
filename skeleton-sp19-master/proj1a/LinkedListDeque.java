@@ -18,7 +18,7 @@ public class LinkedListDeque<T> {
     }
 
     public LinkedListDeque() {
-        sentinel = new LinkedList(null, null, null);
+        sentinel = new LinkedList(null, sentinel, sentinel);
     }
     public LinkedListDeque(LinkedListDeque other){
         this();
