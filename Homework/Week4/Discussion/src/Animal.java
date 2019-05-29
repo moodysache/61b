@@ -43,10 +43,5 @@
 
      }
 
-    static public void printSomething(Animal x){
-         System.out.println("animal");
-     }
-    static public void printSomething(Cat x){
-         System.out.println("Cat");
-     }
+
 }
