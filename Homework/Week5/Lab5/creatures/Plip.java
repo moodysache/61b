@@ -127,7 +127,7 @@ public class Plip extends Creature {
 
         if (emptyNeighbors.isEmpty()) { // FIXME
            return new Action(Action.ActionType.STAY);
-        }
+    }
         if (energy>=1.0){
             return new Action(Action.ActionType.REPLICATE,emptyNeighbors.getFirst());
         }
@@ -155,8 +155,5 @@ public class Plip extends Creature {
         // Rule 4
         return new Action(Action.ActionType.STAY);
     }
-    @Override
-    public String name(){
-        return this.name;
-    }
+
 }
